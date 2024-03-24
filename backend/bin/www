@@ -16,7 +16,7 @@ const mongoose = require('mongoose');
 var port = normalizePort(process.env.PORT || '4000');
 app.set('port', port);
 
-mongoose.connect('mongodb://127.0.0.1:27017/test')
+mongoose.connect('mongodb://127.0.0.1:27017/eCommerce')
   .then(() => console.log('Connected!'));
 
 /**
